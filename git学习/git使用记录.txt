@@ -22,7 +22,7 @@ git branch -d 分支名称--删除分支
 
 git branch -r 查看远端分支
 
-git push --set-upstream origin dev  ---将新建分支提交到远程服务器
+git push --set-upstream origin dev  ---将新建分支dev提交到远程服务器
 
 git branch --unset -upstream  ??
 
@@ -30,7 +30,7 @@ git push -origin --delete dev 删除远端服务器dev分支
 
 git branch dev 新建dev分支
 
-checkout dev 检出dev分支
+git checkout dev 检出dev分支
 
 git log
 
