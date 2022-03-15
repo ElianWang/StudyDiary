@@ -1,0 +1,39 @@
+2022年3月15日
+
+使用gitee指导手册，创建公钥，并给github配置公钥；
+
+使用ssh方式下载github项目；
+
+掌握git基础命令：
+
+git add .
+
+git commit -m "操作备注"
+
+git push 
+
+git pull
+
+git status
+
+git merge 分支名称 ----合并分支
+
+git branch -d 分支名称--删除分支
+
+git branch -r 查看远端分支
+
+git push --set-upstream origin dev  ---将新建分支提交到远程服务器
+
+git branch --unset -upstream  ??
+
+git push -origin --delete dev 删除远端服务器dev分支
+
+git branch dev 新建dev分支
+
+checkout dev 检出dev分支
+
+git log
+
+git tag -a v0.1  -- git定制版本标记
+
+
